@@ -8,11 +8,16 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->template->hook->attach('template:layout:head', 'theme:layout/head');
+        $this->template->hook->attach('template:dashboard:page-header:menu', 'Donboard:dashboard/menu');
     }
 
     public function getPluginAuthor()
     {
         return "Madz";
+    }
+    
+    public function getPluginName()
+    {
+        return 'Calendar';
     }
 }
