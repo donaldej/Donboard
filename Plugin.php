@@ -18,6 +18,6 @@ class Plugin extends Base
     
     public function getPluginName()
     {
-        return 'Calendar';
+        return 'Donboard';
     }
 }
