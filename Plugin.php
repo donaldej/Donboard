@@ -8,7 +8,7 @@ class Plugin extends Base
 {
     public function initialize()
     {
-        $this->template->hook->attach('template:dashboard:page-header:menu', 'Donboard:dashboard/menu');
+        $this->template->hook->attach('template:project:dropdown', 'Donboard:dashboard/menu');
     }
 
     public function getPluginAuthor()
